@@ -1,0 +1,25 @@
+.navbar {
+    height: 10vh;
+
+    ul {
+        height: 100%;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+
+        li {
+            cursor: pointer;
+            margin: 0 1.5rem;
+            list-style: none;
+            font-family: Fredoka One, monospace, cursive, sans-serif;
+            font-size: 2rem;
+            color: $primary-font;
+
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.7s;
+                color: #1a1717b7;
+            }
+        }
+    }
+}

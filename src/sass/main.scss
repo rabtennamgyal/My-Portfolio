@@ -1,0 +1,14 @@
+// Fonts for my project.
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+
+@import 'global';
+@import './Helper/variables';
+
+
+
+// components
+
+// Home
+@import './component/Home/navbar.scss';
+@import './component/Home/intro.scss'
