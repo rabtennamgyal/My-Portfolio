@@ -1,0 +1,28 @@
+.content {
+    min-height: 60vh;
+    max-height: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+
+    .one {
+
+        img {
+            height: 15rem;
+        }
+    }
+
+    .two {
+        width: 80%;
+        height: 70%;
+        display: grid;
+        place-items: center;
+        padding: .5rem;
+
+        h1 {
+            color: $primary-font;
+            font-size: 2.3rem;
+            font-family: Fredoka One, monospace, cursive, sans-serif;
+        }
+    }
+}

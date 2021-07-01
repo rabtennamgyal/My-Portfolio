@@ -1,5 +1,7 @@
 
 
+import img from '../../Assets/arrow.gif'
+
 function Intro() {
     return (
         <div className='Intro'>
