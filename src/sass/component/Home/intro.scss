@@ -6,16 +6,30 @@
     grid-template-columns: 2fr 1fr;
     place-items: center;
 
+    @include respond(phone) {
+        min-height: 55vh;
+        grid-template-columns: 1fr;
+    }
+
     .one {
         height: 50%;
         width: 90%;
         display: grid;
         place-items: center;
 
+        @include respond(phone) {
+            width: 100%;
+            height: 70%;
+        }
+
         h1 {
             color:$primary-text;
             font-size: 9rem;
             font-family: Fredoka One, monospace, cursive, sans-serif;
+
+            @include respond(phone) {
+                font-size: 4.5rem;
+            }
         }
         
         h2 {
@@ -24,6 +38,26 @@
             font-family: Fredoka One, monospace, cursive, sans-serif;
             justify-self: start;
             margin: 3rem;
+
+            @include respond(phone) {
+                font-size: 2.7rem;
+                margin: 0;
+                justify-self: center;
+            }
+        }
+    }
+    
+    .two {
+        display: grid;
+        place-items: center;
+
+        img {
+            height: 25rem;
+            border-radius: 20%;
+
+            @include respond(phone) {
+                height: 15rem;
+            }
         }
     }
 }

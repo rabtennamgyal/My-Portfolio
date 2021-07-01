@@ -1,6 +1,4 @@
-
-
-import img from '../../Assets/arrow.gif'
+import me from '../../Assets/me.jpg'
 
 function Intro() {
     return (
@@ -15,7 +13,7 @@ function Intro() {
             </div>
 
             <div className='two'>
-                
+                <img src={me} />
             </div>
         </div>
     )
