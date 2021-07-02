@@ -16,6 +16,18 @@
         width: 70%;
         justify-self: center;
 
+        #sass {
+            padding: 1rem 0;
+        }
+
+        #mongoose {
+            padding: 2rem 0;
+        }
+
+        #express {
+            padding: 1.5rem 0;
+        }
+
         @include respond(phone) {
             width: 90%;
             margin: 1.5rem 0;

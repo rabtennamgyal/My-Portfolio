@@ -47,12 +47,12 @@ function Skills() {
                 </h2>
                 <div className='imgs'>
                     <img src={Node} />
-                    <img src={express} />
+                    <img id='express' src={express} />
                     <img src={mongo} />
-                    <img src={mongoose} />
+                    <img id='mongoose' src={mongoose} />
                 </div>
             </div>
-            
+
             <div className='tools box'>
                 <h2>
                     Tools : 
