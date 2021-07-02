@@ -1,3 +1,4 @@
+
 // Front End
 import html from '../../Assets/html5.png'
 import css from '../../Assets/css3.png'
@@ -20,7 +21,7 @@ import jest from '../../Assets/jest.png'
 
 function Skills() {
     return (
-        <div className='skills'>
+        <div className='skills' id='skill'>
 
             <div className='text box'>
                 <h1>
