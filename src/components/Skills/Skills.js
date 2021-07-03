@@ -34,7 +34,10 @@ function Skills() {
                     Front End : 
                 </h2>
                 <div className='imgs'>
-                    <img src={html} />
+                    <div className='container'>
+                        <img src={html} />
+                        <h3>HTML</h3>
+                    </div>
                     <img src={css} />
                     <img src={js} />
                     <img id='sass' src={sass} />
@@ -59,7 +62,7 @@ function Skills() {
                     Tools : 
                 </h2>
                 <div className='imgs'>
-                    <img src={git} />
+                    <img id='git' src={git} />
                     <img src={github} />
                     <img src={npm} />
                     <img src={jest} />

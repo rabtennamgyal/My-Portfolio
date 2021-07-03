@@ -28,6 +28,10 @@
             padding: 1.5rem 0;
         }
 
+        #git {
+            padding: 1rem .5rem;
+        }
+
         @include respond(phone) {
             width: 90%;
             margin: 1.5rem 0;
@@ -41,13 +45,33 @@
             @include respond(phone) {
                 margin-top: 1rem;
             }
+
+            .container {
+                padding: .1rem;
+                display: grid;
+                place-items: center;
+            }
+
+            h3 {
+                display: none;
+                color: $primary-text;
+                font-family: Fredoka One, cursive, monospace;
+                font-size: 1.5rem;
+            }
         }
 
         img {
+            position: relative;
+            top: 0;
+            transition: top ease 0.5s;
             cursor: pointer;
             height: 8rem;
             width: 8rem;
             margin: 0 1rem;
+
+            &:hover {
+                top: -20px;
+            }
 
             @include respond(phone) {
                 height: 5rem;

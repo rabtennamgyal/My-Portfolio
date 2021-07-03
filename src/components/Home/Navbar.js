@@ -9,8 +9,7 @@ function Navbar() {
                     activeClass='active'
                     to='skill'
                     smooth={true}
-                    offset={-70}
-                    duration={500}
+                    duration={1000}
                 >
                     <li className='skill'>Skills</li>
                 </Link>
