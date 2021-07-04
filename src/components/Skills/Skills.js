@@ -18,6 +18,8 @@ import github from '../../Assets/github.png'
 import npm from '../../Assets/npm.png'
 import jest from '../../Assets/jest.png'
 
+import { useState } from 'react'
+
 
 function Skills() {
     return (
@@ -35,13 +37,25 @@ function Skills() {
                 </h2>
                 <div className='imgs'>
                     <div className='container'>
-                        <img src={html} />
-                        <h3>HTML</h3>
+                        <img className='pic' src={html} />
+                        <h3 className='txt'>HTML</h3>
                     </div>
-                    <img src={css} />
-                    <img src={js} />
-                    <img id='sass' src={sass} />
-                    <img src={react} />
+                    <div className='container'>
+                        <img src={css} />
+                        <h3 className='txt'>CSS</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={js} />
+                        <h3 className='txt'>JavaScript</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={sass} />
+                        <h3 className='txt'>Sass</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={react} />
+                        <h3 className='txt'>React</h3>
+                    </div>
                 </div>
             </div>
 
@@ -50,10 +64,22 @@ function Skills() {
                     Back End : 
                 </h2>
                 <div className='imgs'>
-                    <img src={Node} />
-                    <img id='express' src={express} />
-                    <img src={mongo} />
-                    <img id='mongoose' src={mongoose} />
+                    <div className='container'>
+                        <img src={Node} />
+                        <h3 className='txt'>Node JS</h3>
+                    </div>
+                    <div className='container'>
+                        <img id='express' src={express} />
+                        <h3 className='txt'>Express</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={mongo} />
+                        <h3>Mongo DB</h3>
+                    </div>
+                    <div className='container'>
+                        <img id='mongoose' src={mongoose} />
+                        <h3>Mongoose</h3>
+                    </div>
                 </div>
             </div>
 
@@ -62,10 +88,22 @@ function Skills() {
                     Tools : 
                 </h2>
                 <div className='imgs'>
-                    <img id='git' src={git} />
-                    <img src={github} />
-                    <img src={npm} />
-                    <img src={jest} />
+                    <div className='container'>
+                        <img id='git' src={git} />
+                        <h3>Git</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={github} />
+                        <h3>GitHub</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={npm} />
+                        <h3>npm</h3>
+                    </div>
+                    <div className='container'>
+                        <img src={jest} />
+                        <h3>Jest</h3>
+                    </div>
                 </div>
             </div>
         </div>
