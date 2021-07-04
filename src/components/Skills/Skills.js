@@ -49,7 +49,7 @@ function Skills() {
                         <h3 className='txt'>JavaScript</h3>
                     </div>
                     <div className='container'>
-                        <img src={sass} />
+                        <img id='sass' src={sass} />
                         <h3 className='txt'>Sass</h3>
                     </div>
                     <div className='container'>
