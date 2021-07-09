@@ -114,6 +114,10 @@
                     padding: 1rem; 
                     background: $primary-text;
 
+                    @include respond(phone) {
+                        font-size: 2.2rem;
+                    }
+
                     a {
                         color: $primary-color; 
                         text-decoration: none;
