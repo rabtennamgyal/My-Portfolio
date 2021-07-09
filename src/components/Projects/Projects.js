@@ -17,8 +17,9 @@ function Projects() {
                                 <a href='https://www.acorns.com/' target='_blank' id='acorn'>
                                 Acorn
                                 </a> 
-                            inspired brokerage type website showcasing my 
-                            Front-End Skills. Build using React and Sass.
+                            inspired Brokerage type website showcasing my 
+                            Front-End Skills. Build using React and Sass; 
+                            fully responsive.
                         </p>
                     </div>
                     <div className='links'>
