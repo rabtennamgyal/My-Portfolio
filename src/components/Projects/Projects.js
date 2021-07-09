@@ -10,6 +10,12 @@ function Projects() {
                 </h1>
             </div>
             <div className='content'>
+                {/* <div className='right'>
+                    <p>
+                        &rarr;
+                    </p>
+                </div> */}
+
                 <div className='project one'>
                     <div className='title'>
                         <h1>
@@ -53,6 +59,12 @@ function Projects() {
                 </div>
                 <div className='project four'>
                     four
+                </div> */}
+                
+                {/* <div className='left'>
+                    <p>
+                        &larr;
+                    </p>
                 </div> */}
             </div>
         </div>
