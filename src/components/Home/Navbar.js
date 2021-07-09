@@ -13,7 +13,15 @@ function Navbar() {
                 >
                     <li className='skill'>Skills</li>
                 </Link>
-                <li className='projects'>Projects</li>
+                <Link
+                    activeClass='active'
+                    to='projects'
+                    smooth={true}
+                    duration={1000}
+                >
+                    <li className='projects'>Projects</li>
+                </Link>
+                
                 <li className='about'>About</li>
                 <li className='contact'>Contact</li>
             </ul>

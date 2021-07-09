@@ -1,0 +1,102 @@
+.Projects {
+    min-height: 100vh;
+    max-height: auto;
+    background: $primary-text;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 3fr;
+
+    .head {
+        display: grid;
+        place-items: center;
+
+        h1 {
+            font-size: 5rem;
+            font-family: Fredoka One;
+            color: $primary-font;
+        }
+    }
+
+    .content {
+        background: $primary-color;
+        display: flex;
+        justify-content: center;
+
+        .project {
+            cursor: pointer;
+            height: 90%;
+            width: 70%;
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: 2fr 1fr;
+            justify-content: center;
+
+            .title {
+                display: grid;
+                place-items: center;
+
+                h1 {
+                    font-family: Fredoka One;
+                    font-size: 9rem;
+                    color: $primary-text;
+                }
+
+                p {
+                    width: 90%;
+                    font-family: Fredoka One;
+                    font-size: 3rem;
+                    color: $primary-text;
+
+                    #acorn {
+                        text-decoration: none;
+                        margin: 0 .5rem;
+                        color: $primary-text;
+
+                        &:hover {
+                            transform: scale(1.1);
+                            transition: 0.7s;
+                            text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                            0px 8px 13px rgba(0,0,0,0.1),
+                            0px 18px 23px rgba(0,0,0,0.1);
+    
+                        }
+    
+                        &:active {
+                            transform: scale(.99);
+                            transition: 0.7s;
+                        }
+                    }
+                }
+            }
+
+            .links {
+                display: flex;
+                justify-self: center;
+                justify-content: space-between;
+                align-items: center;
+                width: 50%;
+
+                .plink {
+                    text-decoration: none;
+                    font-size: 3rem;
+                    font-family: Fredoka One;
+                    color: $primary-text;
+
+                    &:hover {
+                        transform: scale(1.1);
+                        transition: 0.7s;
+                        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                        0px 8px 13px rgba(0,0,0,0.1),
+                        0px 18px 23px rgba(0,0,0,0.1);
+
+                    }
+
+                    &:active {
+                        transform: scale(.99);
+                        transition: 0.7s;
+                    }
+                }
+            }
+        }
+    }
+}
