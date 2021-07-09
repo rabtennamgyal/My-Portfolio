@@ -18,18 +18,34 @@
 
         #sass {
             padding: 1rem 0;
+
+            @include respond(phone) {
+                padding: 1rem 0;
+            }
         }
 
         #mongoose {
             padding: 2rem 0;
+
+            @include respond(phone) {
+                padding: 1rem 0;
+            }
         }
 
         #express {
             padding: 1.5rem 0;
+
+            @include respond(phone) {
+                padding: 1rem 0;
+            }
         }
 
         #git {
             padding: 1rem .5rem;
+
+            @include respond(phone) {
+                padding: .5rem 0;
+            }
         }
 
         @include respond(phone) {
