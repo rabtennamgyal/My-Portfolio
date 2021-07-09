@@ -3,16 +3,12 @@
     background: $primary-text;
     display: grid;
     grid-template-columns: 1fr;
-    grid-template-rows: 1fr 3fr;
-
-    @include respond(phone) {
-        grid-template-rows: 1fr 2fr;
-    }
+    grid-template-rows: 1fr 2fr;
 
     .head {
         display: grid;
         place-items: center;
-        padding: 3rem 0rem;
+        height: 50vh;
 
         h1 {
             font-size: 5rem;
@@ -22,6 +18,10 @@
             @include respond(phone) {
                 font-size: 3rem;
             }
+        }
+
+        img {
+            height: 10rem;
         }
     }
 
@@ -102,18 +102,25 @@
                     width: 90%;
                 }
 
-                .plink {
+                button {
+                    cursor: pointer;
+                    height: 5rem;
+                    border: none;
+                    border-radius: 3rem;
+                    outline: none;
                     text-decoration: none;
-                    font-size: 3rem;
-                    font-family: Fredoka One;
-                    color: $primary-text;
+                    font-size: 2.7rem;
+                    font-family: Fredoka One; 
+                    padding: 1rem; 
 
+                    a {
+                        color: $primary-color; 
+                        text-decoration: none;
+                    }
+                    
                     &:hover {
                         transform: scale(1.1);
                         transition: 0.7s;
-                        text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
-                        0px 8px 13px rgba(0,0,0,0.1),
-                        0px 18px 23px rgba(0,0,0,0.1);
 
                     }
 

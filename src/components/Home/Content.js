@@ -1,4 +1,4 @@
-import img from '../../Assets/arrow.gif'
+import img from '../../Assets/arrowDown.svg'
 
 function Content() {
     return (

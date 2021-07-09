@@ -1,9 +1,12 @@
+import img from '../../Assets/arrowDown.svg'
+
 function Projects() {
     return (
         <div className='Projects' id='projects'>
             <div className='head'>
+                <img src={img} />
                 <h1>
-                    These are my projects
+                    Projects
                 </h1>
             </div>
             <div className='content'>
@@ -23,20 +26,23 @@ function Projects() {
                         </p>
                     </div>
                     <div className='links'>
-                        <a 
+                        <button>
+                            <a 
                             href='https://babylon123.herokuapp.com/'
                             target='_blank'
-                            className='plink'
-                        >
-                            See Project
-                        </a>
-                        <a 
+                            >
+                                See Project
+                            </a>
+                        </button>
+                        
+                        <button>
+                            <a 
                             href='https://github.com/rabtennamgyal/babylon'
                             target='_blank'
-                            className='plink'
-                        >
+                            >
                             See Code
-                        </a>
+                            </a>
+                        </button>
                     </div>
                 </div>
                 {/* <div className='project two'>
