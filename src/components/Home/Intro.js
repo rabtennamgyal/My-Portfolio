@@ -2,7 +2,7 @@ import me from '../../Assets/me.jpg'
 
 function Intro() {
     return (
-        <div className='Intro'>
+        <div className='Intro' id='intro'>
             <div className='one'>
                 <h1>
                     Rabten Samphel

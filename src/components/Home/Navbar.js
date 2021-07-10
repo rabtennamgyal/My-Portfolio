@@ -4,7 +4,14 @@ function Navbar() {
     return (
         <nav className='navbar'>
             <ul>
-                <li className='home'>Home</li>
+                <Link
+                    activeClass='active'
+                    to='intro'
+                    smooth={true}
+                    duration={1000}
+                >
+                    <li className='home'>Home</li>
+                </Link>
                 <Link
                     activeClass='active'
                     to='skill'

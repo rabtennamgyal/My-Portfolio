@@ -1,5 +1,10 @@
 .navbar {
+    background: $primary-text;
     height: 10vh;
+    width: 100%;
+    position: fixed;
+    border-bottom: .2rem solid $primary-color;
+    z-index: 10;
 
     ul {
         height: 100%;
