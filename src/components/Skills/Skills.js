@@ -37,23 +37,23 @@ function Skills() {
                 </h2>
                 <div className='imgs'>
                     <div className='container'>
-                        <img className='pic' src={html} />
+                        <img className='pic' src={html} alt='HTML Icon'/>
                         <h3 className='txt'>HTML</h3>
                     </div>
                     <div className='container'>
-                        <img src={css} />
+                        <img src={css} alt='CSS Icon'/>
                         <h3 className='txt'>CSS</h3>
                     </div>
                     <div className='container'>
-                        <img src={js} />
+                        <img src={js} alt='JavaScript Icon'/>
                         <h3 className='txt'>JavaScript</h3>
                     </div>
                     <div className='container'>
-                        <img id='sass' src={sass} />
+                        <img id='sass' src={sass} alt='Sass Icon'/>
                         <h3 className='txt'>Sass</h3>
                     </div>
                     <div className='container'>
-                        <img src={react} />
+                        <img src={react} alt='React Icon'/>
                         <h3 className='txt'>React</h3>
                     </div>
                 </div>
@@ -65,19 +65,19 @@ function Skills() {
                 </h2>
                 <div className='imgs'>
                     <div className='container'>
-                        <img src={Node} />
+                        <img src={Node} alt='NodeJS Icon'/>
                         <h3 className='txt'>Node JS</h3>
                     </div>
                     <div className='container'>
-                        <img id='express' src={express} />
+                        <img id='express' src={express} alt='Express Icon'/>
                         <h3 className='txt'>Express</h3>
                     </div>
                     <div className='container'>
-                        <img src={mongo} />
+                        <img src={mongo} alt='mongo Icon'/>
                         <h3>Mongo DB</h3>
                     </div>
                     <div className='container'>
-                        <img id='mongoose' src={mongoose} />
+                        <img id='mongoose' src={mongoose}alt='mongoose Icon'/>
                         <h3>Mongoose</h3>
                     </div>
                 </div>
@@ -89,19 +89,19 @@ function Skills() {
                 </h2>
                 <div className='imgs'>
                     <div className='container'>
-                        <img id='git' src={git} />
+                        <img id='git' src={git} alt='Git Icon'/>
                         <h3>Git</h3>
                     </div>
                     <div className='container'>
-                        <img src={github} />
+                        <img src={github} alt='GitHub Icon'/>
                         <h3>GitHub</h3>
                     </div>
                     <div className='container'>
-                        <img src={npm} />
+                        <img src={npm} alt='npm Icon'/>
                         <h3>npm</h3>
                     </div>
                     <div className='container'>
-                        <img src={jest} />
+                        <img src={jest} alt='Jest Icon'/>
                         <h3>Jest</h3>
                     </div>
                 </div>
