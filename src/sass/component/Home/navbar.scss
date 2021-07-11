@@ -6,6 +6,13 @@
     border-bottom: .2rem solid $primary-color;
     z-index: 10;
 
+    @include respond(phone) {
+        position: relative;
+        background: $primary-text;
+        height: 10vh;
+        width: 100%;
+    }
+
     ul {
         height: 100%;
         display: flex;
