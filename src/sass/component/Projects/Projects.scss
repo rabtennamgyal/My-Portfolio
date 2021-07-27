@@ -150,6 +150,14 @@
                     }
                 }
             }
+
+            #one {
+                display: grid;
+            }
+
+            #two {
+                display: none;
+            }
         }
     }
 }

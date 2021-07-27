@@ -13,7 +13,7 @@ function Intro() {
             </div>
 
             <div className='two'>
-                <img src={me} />
+                <img src={me} alt='Mud Footballer' />
             </div>
         </div>
     )

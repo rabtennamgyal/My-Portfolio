@@ -4,7 +4,7 @@ function Content() {
     return (
         <div className='content'>
             <div className='one'>
-                <img src={img} />
+                <img src={img} alt='arrow down' />
             </div>
 
             <div className='two'>

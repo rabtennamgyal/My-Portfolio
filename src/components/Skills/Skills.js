@@ -18,8 +18,6 @@ import github from '../../Assets/github.png'
 import npm from '../../Assets/npm.png'
 import jest from '../../Assets/jest.png'
 
-import { useState } from 'react'
-
 
 function Skills() {
     return (
