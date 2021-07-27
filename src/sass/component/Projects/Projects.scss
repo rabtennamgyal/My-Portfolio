@@ -40,6 +40,16 @@
             cursor: pointer;
             background: $primary-font;
 
+            &:hover {
+                transform: scale(1.1);
+                transition: 0.7s;
+            }
+
+            &:active {
+                transform: scale(0.97);
+                transition: 0.7s;
+            }
+
             @include respond(phone) {
                 font-size: 1.7rem;
                 margin: 0 .5rem;
@@ -48,7 +58,6 @@
         }
 
         .carousel {
-            border: solid;
             height: 90%;
             display: flex;
             justify-content: center;
