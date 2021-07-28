@@ -33,85 +33,24 @@ function Projects() {
                 </div>
 
                 <div className='carousel'>
-
                     {Arr.map((el, i) => {
                         return (
-                            <div id='el' className={i === current ? 'active' : 'slide'} key={i}>
-                                {i === current && (<p>{el.name}</p>)}
-                                {i === current && (<p id='text'>{el.link}</p>)}
+                            <div className={i === current ? 'project active' : 'project slide'} key={i}>
+                                <div className='title'>
+                                    {i === current && (<h1>{el.name}</h1>)}
+                                    {i === current && (<p>{el.text}</p>)}
+                                </div>
+                                <div className='links'>
+                                    <button className={i === current ? 'show' : 'noshow'}>
+                                        {i === current && (<a href={el.link} target='_blank' rel='noopener noreferrer'>See Project</a>)}
+                                    </button>
+                                    <button className={i === current ? 'show' : 'noshow'}>
+                                        {i === current && (<a href={el.code} target='_blank' rel='noopener noreferrer'>See Code</a>)}
+                                    </button>
+                                </div>
                             </div>
                         )
                     })}
-
-                    {/* <div className='project' id='one'>
-                        <div className='title'>
-                            <h1>
-                                Babylon
-                            </h1>
-                            <p>
-                                An Acorn inspired Brokerage type website showcasing my 
-                                Front-End Skills. Build using React and Sass; 
-                                fully responsive.
-                            </p>
-                        </div>
-                            
-                        <div className='links'>
-                            <button>
-                                <a 
-                                href='https://babylon123.herokuapp.com/'
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                >
-                                    See Project
-                                </a>
-                            </button>
-                            
-                            <button>
-                                <a 
-                                href='https://github.com/rabtennamgyal/babylon'
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                >
-                                See Code
-                                </a>
-                            </button>
-                        </div>
-                    </div>
-
-                    <div className='project' id='two'>
-                        <div className='title'>
-                            <h1>
-                                E-Commerce
-                            </h1>
-                            <p>
-                                An Acorn inspired Brokerage type website showcasing my 
-                                Front-End Skills. Build using React and Sass; 
-                                fully responsive.
-                            </p>
-                        </div>
-                            
-                        <div className='links'>
-                            <button>
-                                <a 
-                                href='https://e-com-fas.herokuapp.com/'
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                >
-                                    See Project
-                                </a>
-                            </button>
-                            
-                            <button>
-                                <a 
-                                href='https://github.com/rabtennamgyal/e-com-fashion'
-                                target='_blank'
-                                rel="noopener noreferrer"
-                                >
-                                See Code
-                                </a>
-                            </button>
-                        </div>
-                    </div> */}
                 </div>
                 
                 <div className='right arrow'>
