@@ -16,6 +16,18 @@ const Arr = [
         link: 'https://react-hook-memorygame.herokuapp.com/',
         code: 'https://github.com/rabtennamgyal/react-hooks-memorygame',
         text: 'A Memory Card game build using React. Build as an exercise from The Odin Project. Can you memorize all the Avatars ?'
+    },
+    {
+        name: 'Blog Landing Page',
+        link: 'https://blog-fem.herokuapp.com/',
+        code: 'https://github.com/rabtennamgyal/blog-landing-FM',
+        text: 'A Front End Mentor challenge build using React and Sass.'
+    },
+    {
+        name: 'Sunnysid Landing Page',
+        link: 'https://rabtennamgyal.github.io/Sunnyside-landing-page/',
+        code: 'https://github.com/rabtennamgyal/Sunnyside-landing-page',
+        text: 'Another landing page challenge from Front End Mentor. I build this one using just plain HTML and CSS.'
     }
 ];
 
