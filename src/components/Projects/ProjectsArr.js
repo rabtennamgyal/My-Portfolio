@@ -24,7 +24,7 @@ const Arr = [
         text: 'A Front End Mentor challenge build using React and Sass.'
     },
     {
-        name: 'Sunnysid Landing Page',
+        name: 'Sunnyside Landing Page',
         link: 'https://rabtennamgyal.github.io/Sunnyside-landing-page/',
         code: 'https://github.com/rabtennamgyal/Sunnyside-landing-page',
         text: 'Another landing page challenge from Front End Mentor. I build this one using just plain HTML and CSS.'
