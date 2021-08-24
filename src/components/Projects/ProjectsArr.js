@@ -25,7 +25,7 @@ const Arr = [
     }, 
     {
         name: 'Easy Bank',
-        link: 'https://rabtennamgyal.github.io/easybank-FM-challenge/',
+        link: 'https://easybank-fm.herokuapp.com/',
         code: 'https://github.com/rabtennamgyal/easybank-FM-challenge',
         text: 'Easy Bank is an Intermediate challenge from Front End Mentor. Build using React and Sass.'
     }
