@@ -28,6 +28,12 @@ const Arr = [
         link: 'https://rabtennamgyal.github.io/Sunnyside-landing-page/',
         code: 'https://github.com/rabtennamgyal/Sunnyside-landing-page',
         text: 'Another landing page challenge from Front End Mentor. I build this one using just plain HTML and CSS.'
+    }, 
+    {
+        name: 'Easy Bank',
+        link: 'https://rabtennamgyal.github.io/easybank-FM-challenge/',
+        code: 'https://github.com/rabtennamgyal/easybank-FM-challenge',
+        text: 'Easy Bank is an Intermediate challenge from Front End Mentor. Build using React and Sass.'
     }
 ];
 
