@@ -18,16 +18,10 @@ const Arr = [
         text: 'A Front End Mentor challenge build using React and Sass.'
     },
     {
-        name: 'Sunnyside Landing Page',
-        link: 'https://rabtennamgyal.github.io/Sunnyside-landing-page/',
-        code: 'https://github.com/rabtennamgyal/Sunnyside-landing-page',
-        text: 'Another landing page challenge from Front End Mentor. I build this one using just plain HTML and CSS.'
-    }, 
-    {
-        name: 'Easy Bank',
-        link: 'https://easybank-fm.herokuapp.com/',
-        code: 'https://github.com/rabtennamgyal/easybank-FM-challenge',
-        text: 'Easy Bank is an Intermediate challenge from Front End Mentor. Build using React and Sass.'
+        name: 'IP Address Tracker',
+        link: 'https://ipppppppp.herokuapp.com/',
+        code: 'https://github.com/rabtennamgyal/IP-address-FM',
+        text: 'A Front End Mentor challenge with API.'
     }
 ];
 
