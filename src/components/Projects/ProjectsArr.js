@@ -15,7 +15,7 @@ const Arr = [
         name: 'IP Address Tracker',
         link: 'https://ipppppppp.herokuapp.com/',
         code: 'https://github.com/rabtennamgyal/IP-address-FM',
-        text: 'A Front End Mentor challenge with API.'
+        text: 'An IP address API site where the user can search locations based on the IP address.'
     },
     {
         name: 'tic Tac Toe',
@@ -23,6 +23,12 @@ const Arr = [
         code: 'https://github.com/rabtennamgyal/TOP-Project-tictactoe',
         text: 'Tic Tac Toe game build with Sass and Vanilla JavaScript. You can play with other players or an AI.'
     },
+    {
+        name: "Naruto's Ramen Shop 🍜",
+        link: 'https://rabtennamgyal.github.io/TOP-Project-restaurant-page/',
+        code: 'https://github.com/rabtennamgyal/TOP-Project-restaurant-page',
+        text: 'A Restuarant Site for a fictional Ramen Shop run by the Greated Shinobi of All Time.'
+    }
 ];
 
 export default Arr
