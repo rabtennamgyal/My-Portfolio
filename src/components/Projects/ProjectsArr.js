@@ -25,7 +25,7 @@ const Arr = [
     },
     {
         name: "Naruto's Ramen Shop 🍜",
-        link: 'https://rabtennamgyal.github.io/TOP-Project-restaurant-page/',
+        link: 'https://rabtennamgyal.github.io/TOP-Project-restaurant-page/dist/index.html',
         code: 'https://github.com/rabtennamgyal/TOP-Project-restaurant-page',
         text: 'A Restuarant Site for a fictional Ramen Shop run by the Greated Shinobi of All Time.'
     }
