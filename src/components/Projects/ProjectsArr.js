@@ -28,6 +28,12 @@ const Arr = [
         link: 'https://rabtennamgyal.github.io/TOP-Project-restaurant-page/dist/index.html',
         code: 'https://github.com/rabtennamgyal/TOP-Project-restaurant-page',
         text: 'A Restuarant Site for a fictional Ramen Shop run by the Greated Shinobi of All Time.'
+    },
+    {
+        name: 'Todo List',
+        link: 'https://rabtennamgyal.github.io/TOP-Project-TodoList/dist/index.html',
+        code: 'https://github.com/rabtennamgyal/TOP-Project-TodoLis',
+        text: 'Todo List build with Local Storage.'
     }
 ];
 
