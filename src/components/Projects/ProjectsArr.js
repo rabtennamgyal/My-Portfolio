@@ -12,13 +12,13 @@ const Arr = [
         text: 'A Front End Mentor Challenge build using React and Sass. Fully responsive but with no Back-End functionality yet.'
     },
     {
-        name: 'IP Address Tracker',
-        link: 'https://ipppppppp.herokuapp.com/',
-        code: 'https://github.com/rabtennamgyal/IP-address-FM',
-        text: 'An IP address API site where the user can search locations based on the IP address.'
-    },
+        name: 'Weather App',
+        link: 'https://rabtennamgyal.github.io/TOP-Project-weather-app/dist/index.html',
+        code: 'https://github.com/rabtennamgyal/TOP-Project-weather-app',
+        text: 'Classic weather app build using the openweathermap api & leaflet api.'
+    }
     {
-        name: 'tic Tac Toe',
+        name: 'Tic Tac Toe',
         link: 'https://rabtennamgyal.github.io/TOP-Project-tictactoe/',
         code: 'https://github.com/rabtennamgyal/TOP-Project-tictactoe',
         text: 'Tic Tac Toe game build with Sass and Vanilla JavaScript. You can play with other players or an AI.'
@@ -33,7 +33,7 @@ const Arr = [
         name: 'Todo List',
         link: 'https://rabtennamgyal.github.io/TOP-Project-TodoList/dist/index.html',
         code: 'https://github.com/rabtennamgyal/TOP-Project-TodoLis',
-        text: 'Todo List build with Local Storage.'
+        text: 'Todo List that keeps track of multiple projects, build with Local Storage.'
     }
 ];
 
